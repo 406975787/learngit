@@ -2,4 +2,8 @@ gagaggaggg gtiy dk ja kasjd a
 asjfkasj  jasd jald 
 asfasdfsaf
 asdfasfda
-& simple
+<<<<<<< HEAD
+AND simple
+=======
+AND simple
+>>>>>>> ff
