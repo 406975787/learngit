@@ -7,17 +7,17 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
- private TextView tv;
+ private TextView ty;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       tv= (TextView) findViewById(R.id.dd);
-        tv.setOnClickListener(this);
+       ty= (TextView) findViewById(R.id.dd);
+        ty.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-
+        ty.setTextSize(50);
     }
 }
